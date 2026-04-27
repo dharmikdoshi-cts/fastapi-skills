@@ -1,0 +1,30 @@
+{
+  "name": "fastapi-skills",
+  "owner": {
+    "name": "amardaxini",
+    "url": "https://github.com/amardaxini"
+  },
+  "metadata": {
+    "description": "FastAPI engineering skills marketplace",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "fastapi-skills",
+      "source": ".",
+      "description": "Production-grade FastAPI engineering skills — project structure, database, security, testing, observability, multi-tenancy, audit trail, and more.",
+      "version": "0.1.0",
+      "category": "development",
+      "tags": [
+        "fastapi",
+        "python",
+        "sqlalchemy",
+        "pydantic",
+        "alembic",
+        "pytest",
+        "asyncio",
+        "backend"
+      ]
+    }
+  ]
+}
