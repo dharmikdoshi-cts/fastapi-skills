@@ -40,12 +40,41 @@ Python 3.12+ · FastAPI · async SQLAlchemy 2.x · Pydantic v2 · Alembic · pyt
 
 ## Install
 
-### From GitHub (recommended)
+### From GitHub (shorthand)
 
 ```bash
 # In Claude Code:
 /plugin marketplace add amardaxini/fastapi-skills
 /plugin install fastapi-skills
+```
+
+### From a Git URL (HTTPS)
+
+```bash
+# In Claude Code:
+/plugin marketplace add https://github.com/amardaxini/fastapi-skills.git
+/plugin install fastapi-skills
+```
+
+### From a Git URL (SSH)
+
+```bash
+# In Claude Code:
+/plugin marketplace add git@github.com:amardaxini/fastapi-skills.git
+/plugin install fastapi-skills
+```
+
+Pin to a specific ref (tag / branch / commit) by appending `#<ref>`:
+
+```bash
+/plugin marketplace add https://github.com/amardaxini/fastapi-skills.git#v0.1.0
+/plugin marketplace add https://github.com/amardaxini/fastapi-skills.git#main
+```
+
+To update later:
+
+```bash
+/plugin marketplace update fastapi-skills
 ```
 
 ### From a local clone
