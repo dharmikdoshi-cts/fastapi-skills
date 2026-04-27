@@ -1,0 +1,20 @@
+{
+  "name": "fastapi-skills",
+  "version": "0.1.0",
+  "description": "Production-grade FastAPI engineering skills — project structure, database, security, testing, observability, multi-tenancy, audit trail, and more.",
+  "author": {
+    "name": "Comprint"
+  },
+  "skills": "./skills",
+  "keywords": [
+    "fastapi",
+    "python",
+    "sqlalchemy",
+    "pydantic",
+    "alembic",
+    "pytest",
+    "asyncio",
+    "rest-api",
+    "backend"
+  ]
+}
