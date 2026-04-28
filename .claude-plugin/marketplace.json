@@ -11,7 +11,10 @@
   "plugins": [
     {
       "name": "fastapi-skills",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "amardaxini/fastapi-skills"
+      },
       "description": "Production-grade FastAPI engineering skills — project structure, database, security, testing, observability, multi-tenancy, audit trail, and more.",
       "version": "0.1.0",
       "category": "development",

@@ -7,10 +7,7 @@
   },
   "skills": "./skills",
   "homepage": "https://github.com/amardaxini/fastapi-skills",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/amardaxini/fastapi-skills.git"
-  },
+  "repository": "https://github.com/amardaxini/fastapi-skills",
   "keywords": [
     "fastapi",
     "python",
